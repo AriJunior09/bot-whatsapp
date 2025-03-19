@@ -106,9 +106,8 @@ Exemplo:
 
 ## Melhorias Futuras
 
-- Adicionar uma interface gráfica para facilitar o uso.
-- Permitir a entrada de outros impostos ou margens diferentes.
-- Implementar testes unitários para garantir a confiabilidade dos cálculos.
+- Adicionar outros botões para facilitar o uso.
+- Permitir a entrada de outros tipos de arquivos.
 
 ## Contribuição
 
