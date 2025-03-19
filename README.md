@@ -63,10 +63,12 @@ Exemplo:
 2. A interface gráfica será exibida.
 
 ---
+![aplicação](image.png)
 
 ### **4. Usando a Interface**
 #### **Carregar Planilha**
 - Clique no botão **"Carregar Planilha"** e selecione o arquivo `.xlsx` com os contatos.
+![carregar](image-1.png)
 
 #### **Editar Mensagem**
 - No campo **"Mensagem Personalizada"**, edite a mensagem padrão, se necessário.
