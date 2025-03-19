@@ -122,7 +122,7 @@ def exibir_relatorio():
     if os.path.exists('erros.csv'):
         os.startfile('erros.csv')
     else:
-        messagebox.showinfo("Relatório", "Nenhum erro registrado até o momentoo.")
+        messagebox.showinfo("Relatório", "Nenhum erro registrado até o momento.")
 
 # Criar janela principal
 janela = tk.Tk()
