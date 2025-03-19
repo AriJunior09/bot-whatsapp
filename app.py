@@ -127,7 +127,7 @@ def exibir_relatorio():
 # Criar janela principal
 janela = tk.Tk()
 janela.title("Bot WhatsApp - Automação de Mensagens")
-janela.geometry("600x500")
+janela.geometry("800x600")
 janela.resizable(False, False)
 
 # Estilo
@@ -186,10 +186,10 @@ label_status.pack()
 
 # Rodapé
 frame_rodape = ttk.Frame(janela, padding=10)
-frame_rodape.pack(fill="x")
+frame_rodape.pack(fill="x", side="bottom", anchor="s")
 
-label_rodape = ttk.Label(frame_rodape, text="Desenvolvido por [Seu Nome]", font=("Arial", 10, "italic"))
-label_rodape.pack()
+label_rodape = ttk.Label(frame_rodape, text="Desenvolvido por Ari Júnior", font=("Arial", 10, "italic"))
+label_rodape.pack(side="right", padx=10)
 
 # Iniciar o loop da interface
 janela.mainloop()
