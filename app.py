@@ -1,5 +1,5 @@
 """
-Bot WhatsApp - Automação de Mensagens
+AutoBot - Automação de Mensagens
 """
 import openpyxl
 from urllib.parse import quote
@@ -126,7 +126,7 @@ def exibir_relatorio():
 
 # Criar janela principal
 janela = tk.Tk()
-janela.title("Bot WhatsApp - Automação de Mensagens")
+janela.title("AutoBot - Automação de Mensagens")
 janela.geometry("700x600")
 janela.resizable(False, False)
 
@@ -140,7 +140,7 @@ style.configure("TLabel", font=("Arial", 12))
 frame_cabecalho = ttk.Frame(janela, padding=10)
 frame_cabecalho.pack(fill="x")
 
-label_titulo = ttk.Label(frame_cabecalho, text="Bot WhatsApp - Automação de Mensagens", font=("Arial", 16, "bold"))
+label_titulo = ttk.Label(frame_cabecalho, text="AutoBot - Automação de Mensagens", font=("Arial", 16, "bold"))
 label_titulo.pack()
 
 # Área de configuração

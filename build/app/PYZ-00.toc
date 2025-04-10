@@ -1,0 +1,1 @@
+('C:\\repositorios\\bot_whatsapp\\build\\app\\PYZ-00.pyz', [])
